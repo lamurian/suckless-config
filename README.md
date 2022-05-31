@@ -26,7 +26,4 @@ I find aesthetically-looking terminal rather appealing, so I'm not too keen on
 seeing a useless gap produced by `st` as a default behaviour when it's tiled in
 `dwm`. Worry not, there comes `anysize.diff` to the rescue, because this patch
 allows me to have the full functionality of my screen real estate without any
-useless gap. To my regret though, the current patch still seems to leave some
-gaps on the bottom of the screen (*sigh heavily*). As I don't have the luxury
-of fluent comprehension of `C` source code, I might need to learn a new thing
-or two before start breaking down the code.
+useless gap.
