@@ -7,11 +7,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "inconsolata:size=9", "fontawesome:size=8" };
 static const char dmenufont[]       = "inconsolata:size=9";
-static const char col_gray1[]       = "#1d2021";
-static const char col_gray2[]       = "#282828";
-static const char col_gray3[]       = "#3c3836";
-static const char col_white[]       = "#fbf1c7";
-static const char col_cyan[]       = "#83a598";
+static const char col_gray1[]       = "#1B1F26";
+static const char col_gray2[]       = "#2E3440";
+static const char col_gray3[]       = "#4C566A";
+static const char col_white[]       = "#EFF2F6";
+static const char col_cyan[]        = "#5E81AC";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_white, col_gray1, col_gray2 },
@@ -37,6 +37,7 @@ static const Rule rules[] = {
 	{ "arandr",		NULL,	    NULL, 	0,	      1,	   -1 },
 	{ "pcmanfm",		NULL,	    NULL,	0,	      1,	   -1 },
 	{ "feh",		NULL,	    NULL,	0,	      1, 	   -1 },
+	{ "zoom",		NULL,	    NULL,	0,	      1, 	   -1 },
 	{ "Steam",		NULL,	    NULL,	1 << 8,       0,	   -1 }
 };
 
